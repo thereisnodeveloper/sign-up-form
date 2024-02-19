@@ -5,13 +5,13 @@
 **-CSS reset\
 -vw, vmin, rem, calc+px
 
-**Fonts**
+**Fonts**\
 -Font-stack default\
 -Importing online font library\
 -Overflow & ellipsis\
 -background, border, box-shadow\
 
-**Selectors**
+**Selectors**\
 -Child and sibling combinators + ~ <\
 -Pseudo-selectors (nth-child,hover, selector[attribute*="value"]"
 
