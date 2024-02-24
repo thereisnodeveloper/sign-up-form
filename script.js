@@ -1,7 +1,6 @@
 
 
 //TODO:make a hover popup
-//TODO: attach to submit button
 
 
 const matchPassword = function(e){
