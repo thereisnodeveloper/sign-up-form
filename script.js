@@ -9,7 +9,7 @@ const matchPassword = function(e){
  
  
     const basicInfoForm = document.querySelector(".basic-info")
-    e.preventDefault()
+   //  e.preventDefault()
  if(password.value === passwordConfirm.value){
  console.log("passwords  match");
  //FIXME:
