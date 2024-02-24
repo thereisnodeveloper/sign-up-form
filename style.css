@@ -1,6 +1,7 @@
 
 /* Main CSS Begins */
 
+/* TODO:fonts */
 *{
     --left-panel-width: 25vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +79,6 @@ span.odin-span{
 
 p{
     font-size: 19px;
-    /* max-width: 15em; */
 }
 
 .left{
@@ -108,15 +108,22 @@ ul{
     display:flex;
     flex-wrap: wrap;
 }
+/* FIXME: add minimum column size to forms */
 li{
     list-style: none;
-
     margin: 15px;
     flex: 1 1 45%;
+    /* width: 100px; */
     display:flex;
-    flex-direction: column;
-    width: 100px
+    flex-direction:column;
 }
+
+input{
+    margin-top: 2px;
+    width: 250px
+}
+
+
 
 fieldset{
     margin:0px;
@@ -129,7 +136,6 @@ fieldset{
 }
 .middle{
     background-color: var(--gray-3);
-
 }
 .bottom{
     background-color: var(--gray-2);
@@ -139,3 +145,4 @@ fieldset{
 .submit-button{
     margin: 20px 0 10px 66px;
 }
+
