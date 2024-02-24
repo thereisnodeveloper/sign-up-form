@@ -26,15 +26,57 @@
 
     </div>
 
-    <div class="form">
-        <h2>Form</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur rem officiis cumque quis expedita libero autem commodi tempora similique quo, atque, obcaecati magnam officia, voluptas vel odit ab amet id!</p>
-        <form action="get">
-        </form>
+    <div class="right">
+        <div class="top">
+    <!-- Here are potential solutions
+flexbox ul + flexbox li (column)
+table (not a good practice)
+:before/after pseudo-elemen
+offset using relative position -->
+
+
+<!-- TODO:password matching using JS -->
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur rem officiis cumque quis expedita libero autem commodi tempora similique quo, atque, obcaecati magnam officia, voluptas vel odit ab amet id!</p>
+    
+        </div>
+        <div class="middle">
+
+            <form action="get">
+                <section>
+                    <fieldset>
+                        <ul>
+                            <li><label for="firstname" aria-required="true"> First Name <input
+                            type="text" id="firstname" name="user-first-name"
+                            placeholder="John"><span>*</span></label></li>
+                            <li><label for="lastname">Last Name <input type="text" id="lastname"
+                            name="user-first-name" placeholder="Doe"></label></li>
+                            <li><label for="email">E-mail<input type="email"
+                            name="user-email" id="email"
+                            placeholder="user@example.com"></label></li>
+                            <li><label for="tel">Phone Number<input type="tel" id="tel"></label></li>
+                            <li><label for="pwd">Password<input type="password" id="pwd" name="user-password"></label></li>
+                            <li><label for="pwd-confirm">Confirm Password<input
+                            type="password" id="pwd-confirm" name="user-password"></label></li>
+                           
+                        </ul>
+                    </fieldset>
+                    <button type="submit" class="submit-button">Submit</button>
+                </section>
+            </form>
+
+        </div>
+
+        <div class="bottom">
+            <button type="submit">Create Account</button>
+            
+            Already have an account? <a href="">Log in</a>
+        </div>
+    
     </div>
 
 </div>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>

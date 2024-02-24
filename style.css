@@ -83,12 +83,14 @@ p{
 }
 
 .left{
-    flex: 0 1 500px;
+    flex: 1 1 500px;
     /* overflow:hidden */
     border:5px solid red
 }
 
-.form{
+.right{
     background-color: gray;
-    flex: 0 1 1200px
+    flex: 1 1 1200px;
+    display:flex;
+    flex-direction: column;
 }
